@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+div.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+div.image {
+    position: relative;
+}
+
+div.overlay {
+    position: absolute;
+    top: 0;
+    background: hsl(178, 100%, 50%, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    padding: 39% 0px 40%;
+    text-align: center;
+}
+
+div.image:hover div.overlay {
+    opacity: 1;
+}
+
+img.equilibrium {
+    border-radius: 5px;
+    width: 100%;
+}
+
+img.avatar {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+span{
+    color: hsl(215, 51%, 70%);
+}
+
+span.left {
+    float: left;
+    color: hsl(178, 100%, 50%);
+}
+
+span.right {
+    float: right;
+}
+
+span.name{
+    color: hsl(0, 0%, 100%);
+    transition: 0.5s ease;
+}
+
+span.name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    height: 2px ;
+    border-width: 0px;
+    color: hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+}
